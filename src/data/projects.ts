@@ -45,6 +45,19 @@ export const projectsData: Project[] = [
     links: {
       live: 'https://www.kaggle.com/code/macmini62/global-security-threats-eda/notebook',
     },
+    featured: false,
+  },
+  {
+    id: '4',
+    title: 'Credit Score Prediction',
+    description:
+      'Built an ML model that could classify credit score given credit-related information of an individual',
+    technologies: ['Python', 'Seaborn', 'Numpy', 'Matplotlib', 'Sklearn'],
+    image: '/projects/credit.png',
+    category: 'Data Science',
+    links: {
+      live: 'https://www.kaggle.com/code/macmini62/credit-score',
+    },
     featured: true,
   },
 ];
